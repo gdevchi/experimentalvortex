@@ -27,7 +27,7 @@ const state = {
     iceServers: [
       {
         urls: "turn:143.110.152.166:5500",
-        username: "abdullah",
+        username: "equalvoice",
         credential: "qwerty123",
       },
     ],
@@ -475,3 +475,4 @@ form.addEventListener("submit", (e) => {
 });
 
 window.addEventListener("DOMContentLoaded", () => getAudioStreamAccess());
+
